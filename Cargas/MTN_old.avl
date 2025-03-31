@@ -1,0 +1,287 @@
+MONTENEGRO 2025
+
+# Mach [Freestream mach number]
+0.0
+
+# IYsym IZsym Zsym  [Planos de simetria para simular efeito solo por exemplo]
+0  0 0.3
+
+# Sref Cref Bref [Área, CMA, e Envergadura de referência]
+1.11926 0.39325 3.1
+
+# Xref Yref Zref [Posição do centro de gravidade]
+0.0 0.0 0.0
+
+#CDp [Arrasto Parasita]
+0.003199
+# ================================================================================
+
+SURFACE
+
+Wing
+
+# Nchordwise Cspace Nspanwise Sspace [Paraemetros de discretização]
+8   1.0  80.0  -1.5
+
+YDUPLICATE # [POSIÇÃO EM Y PARA 'ESPELHAR' A ASA]
+0.0
+
+ANGLE # [ANGULO DE INCLINAÇÃO DA SUPERFÍCIE]
+0.0
+
+COMPONENT
+1
+
+#-------------------------------------------
+
+SECTION
+#Xle Yle Zle Chord Aind Nspanwise Sspace [Coordendadas de início de seção]
+0.  0.  0.  0.55 7.72 0   0
+
+AFILE # Arquivo do aerofólio
+alexky.dat
+
+CLAF # [CLAF = 1.0 + 0.77t/c para aerofólios espessos]
+1.1131
+
+CDCL # Polar de arrasto do aerofólio, representada por 3 pares CL CD.
+-0.9181 0.0229 0.238 0.0848 1.5208 0.0358
+
+#-------------------------------------------
+
+SECTION
+#Xle Yle Zle Chord Aind Nspanwise Sspace [Coordendadas de início de seção]
+0.13447  0.3024  0.01795  0.475419 6.92 0   0
+
+AFILE # Arquivo do aerofólio
+alexky.dat
+
+CLAF # [CLAF = 1.0 + 0.77t/c para aerofólios espessos]
+1.1131
+
+CDCL # Polar de arrasto do aerofólio, representada por 3 pares CL CD.
+-0.9181 0.0229 0.238 0.0848 1.5208 0.0358
+
+#-------------------------------------------
+
+SECTION
+#Xle Yle Zle Chord Aind Nspanwise Sspace [Coordendadas de início de seção]
+0.26377  0.5932  0.03518  0.40466 6.05 0   0
+
+AFILE # Arquivo do aerofólio
+alexky.dat
+
+CLAF # [CLAF = 1.0 + 0.77t/c para aerofólios espessos]
+1.1131
+
+CDCL # Polar de arrasto do aerofólio, representada por 3 pares CL CD.
+-0.9181 0.0229 0.238 0.0848 1.5208 0.0358
+
+#-------------------------------------------
+
+SECTION
+#Xle Yle Zle Chord Aind Nspanwise Sspace [Coordendadas de início de seção]
+0.3829434  0.861  0.051085  0.3394594 4.67 0   0
+
+AFILE # Arquivo do aerofólio
+alexky.dat
+
+CLAF # [CLAF = 1.0 + 0.77t/c para aerofólios espessos]
+1.1131
+
+CDCL # Polar de arrasto do aerofólio, representada por 3 pares CL CD.
+-0.9181 0.0229 0.238 0.0848 1.5208 0.0358
+
+CONTROL
+elevator 1.0000 0.7 0 1 0 1
+CONTROL
+aileron 1.0000 0.7 0 1 0 -1
+
+#-------------------------------------------
+
+SECTION
+#Xle Yle Zle Chord Aind Nspanwise Sspace [Coordendadas de início de seção]
+0.487394  1.0902  0.065019  0.282305 2.88 0   0
+
+AFILE # Arquivo do aerofólio
+alexky.dat
+
+CLAF # [CLAF = 1.0 + 0.77t/c para aerofólios espessos]
+1.1131
+
+CDCL # Polar de arrasto do aerofólio, representada por 3 pares CL CD.
+-0.9181 0.0229 0.238 0.0848 1.5208 0.0358
+
+CONTROL
+elevator 1.0000 0.7 0 1 0 1
+CONTROL
+aileron 1.0000 0.7 0 1 0 -1
+
+#-------------------------------------------
+
+SECTION
+#Xle Yle Zle Chord Aind Nspanwise Sspace [Coordendadas de início de seção]
+0.57311  1.288  0.07645465  0.23544004 0.87 0   0
+
+AFILE # Arquivo do aerofólio
+alexky.dat
+
+CLAF # [CLAF = 1.0 + 0.77t/c para aerofólios espessos]
+1.1131
+
+CDCL # Polar de arrasto do aerofólio, representada por 3 pares CL CD.
+-0.9181 0.0229 0.238 0.0848 1.5208 0.0358
+
+CONTROL
+elevator 1.0000 0.7 0 1 0 1
+CONTROL
+aileron 1.0000 0.7 0 1 0 -1
+
+#-------------------------------------------
+
+SECTION
+#Xle Yle Zle Chord Aind Nspanwise Sspace [Coordendadas de início de seção]
+0.6368116  1.432  0.08495185  0.2005468 -1.12 0   0
+
+AFILE # Arquivo do aerofólio
+alexky.dat
+
+CLAF # [CLAF = 1.0 + 0.77t/c para aerofólios espessos]
+1.1131
+
+CDCL # Polar de arrasto do aerofólio, representada por 3 pares CL CD.
+-0.9181 0.0229 0.238 0.0848 1.5208 0.0358
+
+CONTROL
+elevator 1.0000 0.7 0 1 0 1
+CONTROL
+aileron 1.0000 0.7 0 1 0 -1
+
+#-------------------------------------------
+
+SECTION
+#Xle Yle Zle Chord Aind Nspanwise Sspace [Coordendadas de início de seção]
+0.6892  1.55  0.0919  0.171837 -2.57 0   0
+
+AFILE # Arquivo do aerofólio
+alexky.dat
+
+CLAF # [CLAF = 1.0 + 0.77t/c para aerofólios espessos]
+1.1131
+
+CDCL # Polar de arrasto do aerofólio, representada por 3 pares CL CD.
+-0.9181 0.0229 0.238 0.0848 1.5208 0.0358
+
+# ================================================================================
+
+SURFACE
+
+TDP_TRASEIRO
+
+# Nchordwise Cspace Nspanwise Sspace [Paraemetros de discretização]
+8   1.0  80.0  -1.5
+
+YDUPLICATE # [POSIÇÃO EM Y PARA 'ESPELHAR' A ASA]
+0.0
+
+ANGLE # [ANGULO DE INCLINAÇÃO DA SUPERFÍCIE]
+0.0
+
+TRANSLATE #[TRANSLADO DA SUPERFÍCIE]
+0.4 0.200 0.018
+
+COMPONENT
+1
+
+#-------------------------------------------
+
+SECTION
+#Xle Yle Zle Chord Aind Nspanwise Sspace [Coordendadas de início de seção]
+0.  0.  0.  0.192 0.0 0   0
+
+AFILE # Arquivo do aerofólio
+NACA0003.dat
+
+CLAF # [CLAF = 1.0 + 0.77t/c para aerofólios espessos]
+1.02
+
+CDCL # Polar de arrasto do aerofólio, representada por 3 pares CL CD.
+-0.689 0.0948 0.0 0.00749 0.689 0.0948
+
+ANGLE # [ANGULO DE INCLINAÇÃO DA SUPERFÍCIE]
+0
+
+#-------------------------------------------
+
+SECTION
+#Xle Yle Zle Chord Aind Nspanwise Sspace [Coordendadas de início de seção]
+0.  0.  -0.20  0.1 0.0 0   0
+
+AFILE # Arquivo do aerofólio
+NACA0003.dat
+
+CLAF # [CLAF = 1.0 + 0.77t/c para aerofólios espessos]
+1.02
+
+CDCL # Polar de arrasto do aerofólio, representada por 3 pares CL CD.
+-0.689 0.0948 0.0 0.00749 0.689 0.0948
+
+ANGLE # [ANGULO DE INCLINAÇÃO DA SUPERFÍCIE]
+0
+
+# ================================================================================
+
+SURFACE
+
+winglet
+
+# Nchordwise Cspace Nspanwise Sspace [Paraemetros de discretização]
+6.0  1.0  15.0  -1.5
+
+YDUPLICATE # [POSIÇÃO EM Y PARA 'ESPELHAR' A ASA]
+0.0
+
+ANGLE # [ANGULO DE INCLINAÇÃO DA SUPERFÍCIE]
+0.0
+
+TRANSLATE #[TRANSLADO DA SUPERFÍCIE]
+0.6892 1.55 0.092
+
+COMPONENT
+1
+
+#-------------------------------------------
+
+SECTION
+#Xle Yle Zle Chord Aind Nspanwise Sspace [Coordendadas de início de seção]
+0.  0.  0.  0.1705 0.0 0   0
+
+AFILE # Arquivo do aerofólio
+NACA0003.dat
+
+CLAF # [CLAF = 1.0 + 0.77t/c para aerofólios espessos]
+1.02
+
+CDCL # Polar de arrasto do aerofólio, representada por 3 pares CL CD.
+-0.689 0.0948 0.0 0.00749 0.689 0.0948
+
+ANGLE # [ANGULO DE INCLINAÇÃO DA SUPERFÍCIE]
+0
+
+#-------------------------------------------
+
+SECTION
+#Xle Yle Zle Chord Aind Nspanwise Sspace [Coordendadas de início de seção]
+0.07  0.  0.20  0.1 0.0 0   0
+
+AFILE # Arquivo do aerofólio
+NACA0003.dat
+
+CLAF # [CLAF = 1.0 + 0.77t/c para aerofólios espessos]
+1.02
+
+CDCL # Polar de arrasto do aerofólio, representada por 3 pares CL CD.
+-0.689 0.0948 0.0 0.00749 0.689 0.0948
+
+ANGLE # [ANGULO DE INCLINAÇÃO DA SUPERFÍCIE]
+0

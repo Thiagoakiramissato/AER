@@ -1,0 +1,25 @@
+LOAD MTN.avl
+MASS MTN.mass
+MSET 0
+OPER
+C1
+V 18.500
+
+D1
+PM 0
+D2
+RM 0
+B
+B
+0.000000
+R
+ R
+ 0.000000
+X
+fs
+MTN.fs
+hm
+MTN.hm
+
+
+QUIT

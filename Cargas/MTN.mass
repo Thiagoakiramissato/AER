@@ -1,0 +1,7 @@
+ Lunit = 1 m
+ Munit = 1 kg
+ Tunit = 1.0 s
+ g = 9.786
+ rho = 1.111668985 # Usar densidade do ar de referência: Saber qual altitude-densidade está utilizando. ALT-DENS: 1000m
+#Massa | Xcg |   Ycg   |  Zcg   | Ixx | Iyy  | Izz | Ixy  |  Ixz |   Iyz
+11.9   0.3024  0.00   0.00     0.738037    0.360126      1.103470    0.0      0.008044       0.0

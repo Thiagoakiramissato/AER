@@ -1,0 +1,7 @@
+Cruzeiro: Voo reto e nivelado com n=1 e velocidade de cruzeiro.
+
+Mergulho: Voo de recuperação de mergulho com n=2 na velocidade de dive.
+
+Manobra_N12: Voo de manobra genérica com n=1.2 e velocidade de manobra.
+
+Manobra_N15: Voo de manobra genérica com n=1.5 e velocidade de manobra.
